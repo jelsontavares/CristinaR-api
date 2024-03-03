@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "post_outras_art_cientificos",
+  "info": {
+    "singularName": "post-outras-art-cientifico",
+    "pluralName": "post-outras-art-cientificos",
+    "displayName": "postOutrasArtCientifico",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "blocks"
+    },
+    "pdf": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "pdfLink": {
+      "type": "string"
+    }
+  }
+}

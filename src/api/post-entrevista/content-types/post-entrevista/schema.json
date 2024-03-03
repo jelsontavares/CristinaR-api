@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "post_entrevistas",
+  "info": {
+    "singularName": "post-entrevista",
+    "pluralName": "post-entrevistas",
+    "displayName": "postEntrevista",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}

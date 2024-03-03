@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "post_outras_relatorios",
+  "info": {
+    "singularName": "post-outras-relatorio",
+    "pluralName": "post-outras-relatorios",
+    "displayName": "postOutrasRelatorio",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "blocks"
+    },
+    "pdf": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "pdfLink": {
+      "type": "string"
+    }
+  }
+}

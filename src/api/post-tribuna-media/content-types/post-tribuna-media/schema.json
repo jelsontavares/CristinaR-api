@@ -4,7 +4,8 @@
   "info": {
     "singularName": "post-tribuna-media",
     "pluralName": "post-tribuna-medias",
-    "displayName": "postTribunaMedia"
+    "displayName": "postTribunaMedia",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,6 +17,9 @@
     },
     "link": {
       "type": "string"
+    },
+    "test": {
+      "type": "blocks"
     }
   }
 }

@@ -1019,6 +1019,7 @@ export interface ApiPostTribunaMediaPostTribunaMedia
     singularName: 'post-tribuna-media';
     pluralName: 'post-tribuna-medias';
     displayName: 'postTribunaMedia';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -1026,6 +1027,7 @@ export interface ApiPostTribunaMediaPostTribunaMedia
   attributes: {
     title: Attribute.String;
     link: Attribute.String;
+    test: Attribute.Blocks;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
